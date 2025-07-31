@@ -1,0 +1,299 @@
+/* Estilos generales para el footer */
+footer {
+  background-color: #f8f8f8;
+  padding: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  width: 22%; /* Columna de 22% en pantallas grandes */
+  padding: 10px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #007bff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start; /* Alinea los íconos hacia la izquierda */
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.contact-info a {
+  display: block;
+  text-decoration: none;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.contact-info a:hover {
+  color: #007bff;
+}
+
+.working-hours p {
+  color: #666;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 1024px) {
+  .footer-column {
+    width: 48%; /* Las columnas ocuparán el 48% del ancho en pantallas medianas */
+    margin-bottom: 20px; /* Se agrega espacio entre las columnas */
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-start; /* Alineamos los iconos más a la izquierda */
+    margin-bottom: 20px;
+  }
+
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  /* Alineamos la imagen al centro */
+  .footer-column img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+  }
+}
+
+/* Responsividad para pantallas más pequeñas (<= 768px) */
+@media (max-width: 768px) {
+  .footer-column {
+    width: 100%; /* Las columnas ocuparán todo el ancho en pantallas pequeñas */
+  }
+
+  .footer-column h3 {
+    font-size: 16px; /* Reducimos el tamaño del título para pantallas pequeñas */
+  }
+
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .contact-info a {
+    font-size: 14px; /* Reducimos el tamaño de la fuente en pantallas pequeñas */
+  }
+
+  /* Alineamos la imagen al centro */
+  .footer-column img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+  }
+}
+/* Estilos de íconos de redes sociales */
+.social-icons i {
+  margin-right: 10px;
+}
+
+/* Estilos del logo */
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Eliminar el estilo predeterminado de los enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Íconos de Font Awesome */
+.fab,
+.fas {
+  font-size: 24px;
+}
+/* Estilos del navbar */
+.navbar {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para la navbar en escritorio */
+.navbar-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+/* Logo */
+.navbar-logo img {
+  height: 48px;
+  margin-right: 16px;
+}
+
+/* Contenedor de la información de contacto */
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: black;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.contact-item i {
+  font-size: 16px;
+}
+
+.contact-item img {
+  height: 40px;
+}
+
+/* Botón de búsqueda */
+.navbar-search button {
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-search button:hover {
+  background-color: #e0e0e0;
+}
+
+.navbar-search i {
+  color: black;
+  font-size: 18px;
+}
+
+/* Responsividad */
+@media (max-width: 1024px) {
+  .navbar-contact {
+    display: none;
+  }
+
+  .navbar-search {
+    display: none;
+  }
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 12px;
+  min-width: fit-content;
+  flex-shrink: 0;
+  transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: #f1f1f1;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.nav-icon {
+  width: 100%;
+  height: auto;
+}
+
+.nav-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4a4a4a;
+  white-space: nowrap;
+}
+
+/* Desaparecer la barra de desplazamiento en móviles */
+.nav-container::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    justify-content: flex-start;
+    padding-left: 12px;
+  }
+}

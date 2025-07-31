@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DS3-Comunicaciones</title>
+    <link rel="stylesheet" href="../Estilos/Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../Estilos/Globales.css" />
+    <link rel="stylesheet" href="../Estilos/Footer-Nav.css"
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+  <body>
+  <nav class="navbar">
+    <div class="container">
+      <!-- Desktop Navbar -->
+      <div class="navbar-desktop">
+        <!-- Logo y nombre -->
+        <div class="navbar-logo">
+          <img
+            src="https://www.ds3comunicaciones.com/mikrotik/images/Logo1.jpg"
+            alt="NetPeru Logo"
+          />
+        </div>
+        
+
+        <!-- Info de contacto -->
+        <div class="navbar-contact">
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <p class="text-bold">533-4339</p>
+              <p class="text-bold">994-428-965</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <p class="text-bold">99653-3223</p>
+              <p class="text-bold">937-514-867</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span class="text-bold">netperu100@hotmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="text-bold">Lima, PERÚ</span>
+          </div>
+          <div class="contact-item">
+            <img src="https://www.ds3comunicaciones.com/cisco/images/cisco-gif.gif" alt="cisco" />
+          </div>
+        </div>
+
+        <!-- Botón de búsqueda -->
+        <div class="navbar-search">
+          <button id="search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <!-- Item 1 -->
+      <a href="https://www.ds3comunicaciones.com/cisco/catalys_9200l.html" class="nav-item">
+        <div class="icon-container">
+          <img src="../Imagenes/Cisco Business.ico" class="nav-icon" alt="Switch Catalyst" />
+        </div>
+        <span class="nav-text">Switch Catalyst</span>
+      </a>
+
+      <!-- Item 2 -->
+      <a href="https://www.ds3comunicaciones.com/cisco/bussines_sg350.html" class="nav-item">
+        <div class="icon-container">
+          <img src="../Imagenes/Cisco Business.ico" class="nav-icon" alt="Cisco Business" />
+        </div>
+        <span class="nav-text">Cisco Business</span>
+      </a>
+
+      <!-- Item 3 -->
+      <a href="https://www.ds3comunicaciones.com/cisco/precios_cisco_switch_industrial_b.html" class="nav-item">
+        <div class="icon-container">
+          <img src="../Imagenes/Switch Industrial.ico" class="nav-icon" alt="Switch Industrial" />
+        </div>
+        <span class="nav-text">Switch Industrial</span>
+      </a>
+
+      <!-- Item 4 -->
+      <a href="https://www.ds3comunicaciones.com/cisco/precios_cisco_access_point_b.html" class="nav-item">
+        <div class="icon-container">
+          <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42Z" fill="white" stroke="black" stroke-width="2" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M27 21C27 24.3137 24.3137 27 21 27C17.6863 27 15 24.3137 15 21C15 17.6863 17.6863 15 21 15C24.3137 15 27 17.6863 27 21Z" fill="black" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29 21C29 25.4183 25.4183 29 21 29C16.5817 29 13 25.4183 13 21C13 16.5817 16.5817 13 21 13C25.4183 13 29 16.5817 29 21Z" fill="white" stroke="black" stroke-width="2" />
+          </svg>
+        </div>
+        <span class="nav-text">Aironet</span>
+      </a>
+
+      <!-- Item 5 -->
+      <a href="https://www.ds3comunicaciones.com/cisco/precios_cisco_telefonos_b.html" class="nav-item">
+        <div class="icon-container">
+          <img src="../Imagenes/Télefono.ico" class="nav-icon" alt="Teléfono" />
+        </div>
+        <span class="nav-text">Teléfono</span>
+      </a>
+
+      <!-- Item 6 -->
+      <a href="https://ds3comunicaciones.com/cisco/precios_cisco_meraki_b.html" class="nav-item">
+        <div class="icon-container">
+          <img src="../Imagenes/mariakii.ico" class="nav-icon" alt="Meraki" />
+        </div>
+        <span class="nav-text">Meraki</span>
+      </a>
+
+      <!-- Item 7 -->
+      <a href="#" class="nav-item">
+        <div class="icon-container">
+          <img src="../Imagenes/Transceiver.ico" class="nav-icon" alt="Transceiver" />
+        </div>
+        <span class="nav-text">Transceiver</span>
+      </a>
+    </div>
+  </nav>
+<div class="container mx-auto px-4 py-8">
+  <div class="product-section flex flex-wrap">
+    <!-- Galería de imágenes -->
+    <div class="image-gallery w-full md:w-1/2 lg:w-2/3 p-4">
+      <div class="main-image-container relative">
+        <img
+          id="mainImage"
+          class="main-image w-full object-cover"
+          src="/Imagenes/switch.jpg"
+          alt="Switch Cisco C9200L-24P-4G-E"
+        />
+        <!-- Botones de navegación con iconos de Font Awesome -->
+        <button class="nav-button prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full shadow-lg">
+          <i class="fa fa-chevron-left"></i> <!-- Icono de Font Awesome -->
+        </button>
+        <button class="nav-button next absolute top-1/2 right-2 transform -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full shadow-lg">
+          <i class="fa fa-chevron-right"></i> <!-- Icono de Font Awesome -->
+        </button>
+      </div>
+
+      <div class="thumbnails mt-4 flex space-x-2">
+        <img class="thumbnail w-16 h-16 object-cover rounded-md cursor-pointer border-2 border-transparent hover:border-gray-300 active:border-gray-500" src="/Imagenes/switch.jpg" />
+        <img class="thumbnail w-16 h-16 object-cover rounded-md cursor-pointer border-2 border-transparent hover:border-gray-300 active:border-gray-500" src="/Imagenes/switch.jpg" />
+        <img class="thumbnail w-16 h-16 object-cover rounded-md cursor-pointer border-2 border-transparent hover:border-gray-300 active:border-gray-500" src="/Imagenes/switch.jpg" />
+      </div>
+    </div>
+
+    <!-- Información del producto -->
+    <div class="product-info w-full md:w-1/2 lg:w-1/3 p-4">
+      <h1 class="product-title text-2xl font-semibold text-gray-900">
+        Switch Cisco C9200L-24P-4G-E 24 Puertos PoE+ y 4 SFP
+      </h1>
+
+      <p class="product-description mt-2 text-gray-700">
+        El C9200L-24P-4G-E es un switch de capa 3 administrable con 24
+        puertos Gigabit PoE+ (370W) y 4 puertos SFP para fibra óptica. Ideal
+        para redes empresariales que requieren alto rendimiento, seguridad y
+        escalabilidad.
+      </p>
+
+      <!-- Sección de descargas -->
+      <div class="downloads-section mt-4">
+        <h3 class="downloads-title text-lg font-medium text-gray-900">Descargar</h3>
+        <div class="download-buttons mt-2 flex space-x-4">
+          <button
+            class="download-btn flex items-center space-x-2 bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300"
+            onclick="downloadFile('ficha-tecnica')"
+          >
+            <img
+              src="../Imagenes/pdf.png"
+              alt="Ficha Técnica"
+              class="download-icon w-6 h-6"
+            />
+            <span>Ficha Técnica</span>
+          </button>
+          <button class="download-btn flex items-center space-x-2 bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition duration-300" onclick="downloadFile('manual')">
+            <img
+              src="../Imagenes/manual.png"
+              alt="Manual"
+              class="download-icon w-6 h-6"
+            />
+            <span>Manual</span>
+          </button>
+          <button
+            class="download-btn flex items-center space-x-2 bg-yellow-600 text-white py-2 px-4 rounded-md hover:bg-yellow-700 transition duration-300"
+            onclick="downloadFile('especificaciones')"
+          >
+            <img
+              src="../Imagenes/informe.png"
+              alt="Especificaciones"
+              class="download-icon w-6 h-6"
+            />
+            <span>Especificaciones</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="price-section mt-4 flex items-center">
+        <span class="currency text-lg font-bold text-gray-900">U$</span>
+        <span class="price text-2xl font-semibold text-gray-900">1,979</span>
+      </div>
+
+      <button class="buy-button mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-300">
+        🛒 COMPRAR AHORA
+      </button>
+    </div>
+  </div>
+</div>
+
+    <!-- Sección de Marcas -->
+    <section class="brands-section">
+      <h2 class="brands-title texto">Nuestras Marcas</h2>
+      <div class="brands-carousel">
+        <div class="brands-container">
+          <!-- Primera serie de marcas -->
+          <div class="brand-logo">
+            <img src="/Imagenes/airlivelogo.gif" alt="AirLive" />
+          </div>
+          <div class="brand-logo">
+            <img src="/Imagenes/Logo.jpg" alt="DS3 Comunicaciones" />
+          </div>
+          <div class="brand-logo">
+            <img src="/Imagenes/ubiquiti_logo.jpg" alt="AirLive" />
+          </div>
+          <div class="brand-logo">
+            <img src="/Imagenes/siemon_logo.gif" alt="DS3 Comunicaciones" />
+          </div>
+          <div class="brand-logo">
+            <img src="/Imagenes/paste20.jpg" alt="AirLive" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="info-container">
+        <!-- Sección 1: What's Included -->
+        <div class="info-item">
+          <div class="info-header" onclick="toggleInfo(this)">
+            <h3>Especificaciones Tecnicas</h3>
+            <span class="info-arrow">+</span>
+          </div>
+          <div class="info-content">
+            <ul>
+              <li>
+                Tipo de dispositivo: Switch gestionado de 24 puertos PoE+ con 4
+                puertos SFP de 1G, modelo C9200L-24P-4G-E.
+              </li>
+              <li>
+                Conectividad:24 puertos 10/100/1000 con PoE+ completo y 4
+                puertos SFP de 1G.
+              </li>
+              <li>Dimensiones: 44,5 x 28,8 x 4,4 cm.</li>
+              <li>Peso: 4,35 kg.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Sección 2: Technical Details -->
+        <div class="info-item">
+          <div class="info-header" onclick="toggleInfo(this)">
+            <h3>Protocolos Soportados</h3>
+            <span class="info-arrow">+</span>
+          </div>
+          <div class="info-content">
+            <ul>
+              <li>
+                Protocolo de direccionamiento: Soporte para enrutamiento IPv4 e
+                IPv6, incluyendo protocolos como OSPF, EIGRP, IS-IS, RIP, y
+                acceso enrutado.
+              </li>
+              <li>
+                Protocolo de gestión remota: Compatible con SNMPv1, SNMPv2c,
+                SNMPv3, Telnet, SSH, HTTP, HTTPS, y RMON
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Sección 3: Network Security -->
+        <div class="info-item">
+          <div class="info-header" onclick="toggleInfo(this)">
+            <h3>Cumplimientos de Normas</h3>
+            <span class="info-arrow">+</span>
+          </div>
+          <div class="info-content">
+            <ul>
+              <li>
+                Cumple con IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.1D,
+                IEEE 802.1Q, IEEE 802.3ab, IEEE 802.1p, IEEE 802.3af, IEEE
+                802.3x, IEEE 802.3ad (LACP), IEEE 802.1w, IEEE 802.1x, IEEE
+                802.1s, IEEE 802.3ah, IEEE 802.1ab (LLDP).
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Sección 4: Compatible Services -->
+        <div class="info-item">
+          <div class="info-header" onclick="toggleInfo(this)">
+            <h3>Certificaciones y Ambiente</h3>
+            <span class="info-arrow">+</span>
+          </div>
+          <div class="info-content">
+            <ul>
+              <li>
+                Certificaciones: CE, TUV GS, cUL, EN 60950, EN55022, NOM, VCCI
+                Class A ITE, IEC 60950, EN55024, FCC Part 15, UL 1950 (3), CSA
+                22.2 No. 950 (3).
+              </li>
+              <li>Temperatura de operación: -5 - 45 °C</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+    <div class="carousel-container">
+      <h2 class="texto">Más Productos Relacionados</h2>
+      <div class="carousel-wrapper">
+        <!-- Producto 1 -->
+        <div class="product-item" data-index="0">
+          <img
+            src="/Imagenes/switch.jpg"
+            alt="Switch Cisco C9200L"
+            class="product-image"
+          />
+          <h3 class="product-title">Switch Cisco Catalyst 9200L</h3>
+          <p class="product-description">
+            Switch capa 3 administrable con 24 puertos Gigabit Ethernet y 4
+            uplinks SFP de 1G para fibra. Ideal para redes empresariales de alto
+            rendimiento, escalables y seguras.
+          </p>
+          <button class="product-button" onclick="viewProduct(0)">
+            Ver Producto
+          </button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product-item" data-index="1">
+          <img
+            src="/Imagenes/switch.jpg"
+            alt="Switch Cisco C9200L"
+            class="product-image"
+          />
+          <h3 class="product-title">Switch Cisco Catalyst 9200L</h3>
+          <p class="product-description">
+            Switch capa 3 administrable con 24 puertos Gigabit Ethernet y 4
+            uplinks SFP de 1G para fibra. Ideal para redes empresariales de alto
+            rendimiento, escalables y seguras.
+          </p>
+          <button class="product-button" onclick="viewProduct(1)">
+            Ver Producto
+          </button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product-item" data-index="2">
+          <img
+            src="/Imagenes/switch.jpg"
+            alt="Switch Cisco C9200L"
+            class="product-image"
+          />
+          <h3 class="product-title">Switch Cisco Catalyst 9200L</h3>
+          <p class="product-description">
+            Switch capa 3 administrable con 24 puertos Gigabit Ethernet y 4
+            uplinks SFP de 1G para fibra. Ideal para redes empresariales de alto
+            rendimiento, escalables y seguras.
+          </p>
+          <button class="product-button" onclick="viewProduct(2)">
+            Ver Producto
+          </button>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="product-item" data-index="3">
+          <img
+            src="/Imagenes/switch.jpg"
+            alt="Switch Cisco C9200L"
+            class="product-image"
+          />
+          <h3 class="product-title">Switch Cisco Catalyst 9200L</h3>
+          <p class="product-description">
+            Switch capa 3 administrable con 24 puertos Gigabit Ethernet y 4
+            uplinks SFP de 1G para fibra. Ideal para redes empresariales de alto
+            rendimiento, escalables y seguras.
+          </p>
+          <button class="product-button" href="#">Ver Producto</button>
+        </div>
+      </div>
+    </div>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-column">
+      <img src="http://www.ds3comunicaciones.com/mikrotik/images/Logo1.jpg" alt="DS3 Comunicaciones" class="logo" />
+      <div class="social-media">
+        <h3>Redes Sociales</h3>
+        <div class="social-icons">
+          <a href="#" class="facebook-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://wa.me/994428965?text=Hola nesecito ayuda" target="_blank" class="whatsapp-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="email">
+        <h3>Correo</h3>
+        <a href="mailto:netperu100@hotmail.com"><i class="fas fa-envelope"></i> netperu100@hotmail.com</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h3>Soluciones</h3>
+      <ul>
+        <li><a href="https://www.ds3comunicaciones.com/l-com/AccessPoint.html" target="_blank">Access Point</a></li>
+        <li><a href="https://www.ds3comunicaciones.com/lcom/AntenasMIMO.html" target="_blank">Antenas MIMO</a></li>
+        <li><a href="https://www.ds3comunicaciones.com/l-com/AntenasPanel.html" target="_blank">Antenas de Panel</a></li>
+        <li><a href="https://www.ds3comunicaciones.com/l-com/AntenaSectorial.html" target="_blank">Antenas Sectoriales</a></li>
+        <li><a href="https://ds3comunicaciones.com/l-com/pigtail/Pigtail.html" target="_blank">Cable Pigtail</a></li>
+        <li><a href="https://www.ds3comunicaciones.com/trendnet/MediaConvert.html" target="_blank">Media Converter</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Soporte</h3>
+      <ul>
+        <li><a href="https://www.ds3comunicaciones.com/soporte.html" target="_blank">Soporte Técnico</a></li>
+        <li><a href="https://ds3comunicaciones.com/us.html" target="_blank">Acerca de Nosotros</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Contacto</h3>
+      <div class="contact-info">
+        <a href="https://wa.me/994428965?text=Hola nesecito ayuda" target="_blank"><i class="fas fa-phone-alt"></i> 994 428 965</a>
+        <a href="https://wa.me/996533223?text=Hola nesecito ayuda" target="_blank"><i class="fas fa-phone-alt"></i> 996 533 223</a>
+      </div>
+      <div class="working-hours">
+        <h3>Horario de Atención</h3>
+        <p>Lunes a Viernes: 9:00 - 18:00</p>
+        <p>Sábados: 9:00 - 13:00</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script>
+      function downloadFile(type) {
+        // Aquí puedes agregar la lógica para descargar cada archivo
+        switch (type) {
+          case "ficha-tecnica":
+            window.open(
+              "https://www.ds3comunicaciones.com/cisco/files/catalyst_9200.pdf",
+              "_blank"
+            );
+            break;
+          case "manual":
+            window.open(
+              "https://web.netperu100.com/cisco/catalyst/files/Catalyst_9200_manual.pdf",
+              "_blank"
+            );
+            break;
+          case "especificaciones":
+            window.open(
+              "https://web.netperu100.com/cisco/catalyst/files/C9200L-24P-4G-E_esp.pdf",
+              "_blank"
+            );
+            break;
+        }
+      }
+
+      // Funcionalidad de miniaturas
+      document.querySelectorAll(".thumbnail").forEach((thumb, index) => {
+        thumb.addEventListener("click", () => {
+          document
+            .querySelectorAll(".thumbnail")
+            .forEach((t) => t.classList.remove("active"));
+          thumb.classList.add("active");
+        });
+      });
+
+      function toggleInfo(header) {
+        const infoItem = header.parentElement;
+        const isCurrentlyActive = infoItem.classList.contains("active");
+
+        // Cerrar todos los elementos primero
+        document.querySelectorAll(".info-item").forEach((item) => {
+          item.classList.remove("active");
+        });
+
+        // Si el elemento clickeado NO estaba activo, abrirlo
+        if (!isCurrentlyActive) {
+          infoItem.classList.add("active");
+        }
+      }
+
+      // Pausar animación del carrusel al pasar el mouse
+      const carousel = document.querySelector(".brands-container");
+      carousel.addEventListener("mouseenter", () => {
+        carousel.style.animationPlayState = "paused";
+      });
+
+      carousel.addEventListener("mouseleave", () => {
+        carousel.style.animationPlayState = "running";
+      });
+
+      let currentIndex = 0;
+      const totalProducts = 5;
+
+      function updateCarousel() {
+        const cards = document.querySelectorAll(".product-card");
+        const indicators = document.querySelectorAll(".indicator");
+
+        cards.forEach((card, index) => {
+          // Limpiar todas las clases
+          card.className = "product-card";
+
+          // Calcular posición relativa al producto actual
+          let position = index - currentIndex;
+
+          // Manejar el loop circular
+          if (position > 2) position -= totalProducts;
+          if (position < -2) position += totalProducts;
+
+          // Asignar clases según la posición
+          if (position === 0) {
+            card.classList.add("active");
+          } else if (position === -1) {
+            card.classList.add("left");
+          } else if (position === 1) {
+            card.classList.add("right");
+          } else if (position === -2) {
+            card.classList.add("hidden", "far-left");
+          } else if (position === 2) {
+            card.classList.add("hidden", "far-right");
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+
+        // Actualizar indicadores
+        indicators.forEach((indicator, index) => {
+          indicator.classList.toggle("active", index === currentIndex);
+        });
+      }
+
+      function nextProduct() {
+        currentIndex = (currentIndex + 1) % totalProducts;
+        updateCarousel();
+      }
+
+      function previousProduct() {
+        currentIndex = (currentIndex - 1 + totalProducts) % totalProducts;
+        updateCarousel();
+      }
+
+      function goToProduct(index) {
+        currentIndex = index;
+        updateCarousel();
+      }
+
+      function viewProduct(index) {
+        alert(`Ver detalles del producto ${index + 1}`);
+        // Aquí puedes redirigir a la página del producto
+        // window.location.href = `/producto/${index + 1}`;
+      }
+
+      // Inicializar el carrusel
+      updateCarousel();
+
+      // Auto-play opcional (descomenta si lo quieres)
+      // setInterval(nextProduct, 4000);
+
+      // Navegación con teclado
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowLeft") {
+          previousProduct();
+        } else if (e.key === "ArrowRight") {
+          nextProduct();
+        }
+      });
+      
+    </script>
+    <script src="../Js/scroll.js"></script>
+  </body>
+</html>
